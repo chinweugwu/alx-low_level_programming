@@ -11,7 +11,7 @@ int main(void)
 	{
 		if (alps == 'e' || alps == 'q')
 		{
-		alps++;
+		continue;
 		}
 		else
 		{
