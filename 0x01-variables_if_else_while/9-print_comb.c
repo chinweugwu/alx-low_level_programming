@@ -18,6 +18,7 @@ int main(void)
 	else if (i == 9)
 	{
 	putchar(i + '0');
+	break;
 	}
 	}
 	return (0);
