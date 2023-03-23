@@ -14,15 +14,13 @@ int is_prime_number(int n)
 	{
 	return (0);
 	}
-	else if (n == 1)
+	else if (n == i)
 	{
 	return (1);
 	}
 	else
 	{
 	i++;
-	return is_prime_number(n - 1);
+	return (is_prime_number(n - 1));
 	}
-
-	
 }
