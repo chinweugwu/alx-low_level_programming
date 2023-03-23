@@ -7,7 +7,7 @@ int main_sqrt_recursion(int n, int i);
  * Return: natural square
  */
 
-int _sqrt_recursion(int n);
+int _sqrt_recursion(int n)
 {
 	if (n < 0)
 	{
