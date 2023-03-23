@@ -8,15 +8,21 @@
 
 int is_prime_number(int n)
 {
-	int i;
+	int i = 2;
 
-	for (i = 2; i < n; i++)
+	if (n % i == 0)
 	{
-		if (n % i == 0)
-		{
-		return (0);
-		}
-	break;
+	return (0);
 	}
-	return	(1);
+	else if (n == 1)
+	{
+	return (1);
+	}
+	else
+	{
+	i++;
+	return is_prime_number(n - 1);
+	}
+
+	
 }
