@@ -2,8 +2,8 @@
 
 #include "main.h"
 
-/*
- * main - prints the number of arguments passed to the program
+/**
+ * main - prints the number of arguments passed
  * @argc: number of inputs
  * @argv: array of arguments
  * Return: 0
