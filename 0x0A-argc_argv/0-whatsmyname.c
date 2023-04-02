@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * main - to list name of file using argc
  * @argc: input argument total number
@@ -8,6 +9,6 @@
 
 int main(int argc, char *argv[])
 {
-	printf("%s/n", argv[0]);
+	printf("%s\n", *argv);
 	return (0);
 }
